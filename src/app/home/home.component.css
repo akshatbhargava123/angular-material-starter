@@ -1,0 +1,10 @@
+.custom-card {
+  height: 100%;
+  text-align: center;
+  margin-top: 15%;
+  min-height: 300px;
+}
+
+h1 {
+  font-size: 4rem;
+}

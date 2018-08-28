@@ -1,0 +1,33 @@
+<div class="row center-sm center-xs" style="margin-top: 10%">
+  <div class="col-sm-6 col-xs-9">
+    <div class="example-container">
+      <mat-form-field>
+        <input matInput placeholder="Name" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Amount" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="NGO Address" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-select placeholder="Event">
+          <mat-option value="option">Earthquake</mat-option>
+          <mat-option value="option">Flood</mat-option>
+          <mat-option value="option">Tsunami</mat-option>
+          <mat-option value="option">Drought</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+
+    <div style="padding: 15px"></div>
+
+    <button mat-raised-button (click)="submit()">
+      SUBMIT
+    </button>
+
+  </div>
+</div>
